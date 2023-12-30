@@ -1,4 +1,5 @@
 Fake News Detection System
+
 Overview
 This project implements a Fake News Detection System using machine learning techniques in Python. The system is designed to classify news articles as either clickbait or non-clickbait based on the content. It includes the preprocessing of a dataset, training machine learning models, and a manual testing feature.
 
@@ -9,6 +10,7 @@ Before running the code, make sure you have the following installed:
 - Required Python libraries (pandas, numpy, scikit-learn, statsmodels)
 
 Install the necessary libraries: 
+
 pip install pandas numpy scikit-learn statsmodels
 
 Project Structure
@@ -22,14 +24,20 @@ Follow the code cells for data loading, preprocessing, model training, and testi
 The trained models include Logistic Regression, Decision Tree, Gradient Boosting, and Random Forest classifiers.
 
 Manual Testing
+
 To manually test the system:
+
 Input a news article when prompted in the last code cell of the notebook.
 The system will predict whether the input news is likely to be clickbait or non-clickbait using the trained models.
+
 Results
+
 The notebook displays evaluation metrics such as accuracy, precision, recall, and log loss for each machine learning model. The Random Forest model achieved high accuracy, indicating effective fake news detection.
 
 Contributors
+
 Kezia Rijadi
+
 Calista Aurelia
 
 under the mentorship of Stefanus Setiawan.
